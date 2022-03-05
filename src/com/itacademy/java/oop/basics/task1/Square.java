@@ -1,7 +1,7 @@
 package com.itacademy.java.oop.basics.task1;
 
 public class Square extends Shape {
-    double side;
+    private final double side;
 
     @Override
     double calculateArea() {

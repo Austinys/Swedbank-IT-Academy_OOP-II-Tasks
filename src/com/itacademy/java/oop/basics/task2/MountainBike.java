@@ -11,11 +11,17 @@ public class MountainBike implements Bicycle {
 
     @Override
     public void speedUp(int increment) {
+        if ()
 
     }
 
     @Override
-    public void applyBrakes() {
+    public void applyBrakes(double speed) {
+        if (speed < -10) {
+            System.out.println("Value is too high. The highest possible value to use is -10");
+        } else if (speed >= 10) {
+
+        }
 
     }
 }

@@ -6,4 +6,5 @@ public interface Bicycle {
    void applyBrakes();
 
 
+   void applyBrakes(double speed);
 }
