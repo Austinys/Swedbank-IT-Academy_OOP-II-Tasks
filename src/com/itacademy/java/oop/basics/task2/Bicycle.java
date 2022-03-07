@@ -3,8 +3,5 @@ package com.itacademy.java.oop.basics.task2;
 public interface Bicycle {
    void changeGear(int newGear);
    void speedUp(int increment);
-   void applyBrakes();
-
-
-   void applyBrakes(double speed);
+   void applyBrakes(int decrease);
 }
