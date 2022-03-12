@@ -7,7 +7,8 @@ public class Speedometer {
             System.out.println(Bike.MOUNTAIN + " Bike Wins!");
         } else if (mountainBike.getSpeed() < roadBike.getSpeed())
             System.out.println(Bike.ROAD + " Bike Wins!");
-       return null;
+        System.out.println("It's a draw!");
+        return null;
     }
 
     public static Bike chooseWinner(int mountainBikeSpeed, int roadBikeSpeed) {
@@ -15,7 +16,9 @@ public class Speedometer {
             System.out.println(Bike.MOUNTAIN + " Bike Wins!");
         } else if (mountainBikeSpeed < roadBikeSpeed)
             System.out.println(Bike.ROAD + " Bike Wins!");
+        System.out.println("It's a draw!");
         return null;
     }
 }
+
 

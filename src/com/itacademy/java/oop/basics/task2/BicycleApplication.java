@@ -1,23 +1,50 @@
 package com.itacademy.java.oop.basics.task2;
 
-import static com.itacademy.java.oop.basics.task2.MountainBike.gear;
-import static com.itacademy.java.oop.basics.task2.MountainBike.speed;
 
 public class BicycleApplication {
     public static void main(String[] args) {
         Bicycle mountainBike = new MountainBike(1, 10);
-        System.out.println("Mountain bike starting gear: " + gear + " and speed: " + speed);
+        System.out.println(mountainBike);
         Bicycle roadBike = new RoadBike(1, 10);
-        System.out.println("Road bike starting gear: " + gear + " and speed: " + speed);
+        System.out.println(roadBike);
 
-        mountainBike.speedUp(40);
-        mountainBike.applyBrakes(5);
-        mountainBike.changeGear(-1);
+        try {
+            mountainBike.speedUp(10);
+        } catch (WrongSpeedIncrementException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException();
+        } try {
+            mountainBike.applyBrakes(5);
+        } catch (WrongBrakesValueException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException();
+        } try {
+            mountainBike.changeGear(1);
+        } catch (WrongGearValueException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException();
+        }
 
-        roadBike.speedUp(20);
-        roadBike.applyBrakes(-2);
-        roadBike.changeGear(2);
+        try {
+            roadBike.speedUp(10);
+        } catch (WrongSpeedIncrementException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException();
+        } try {
+            roadBike.applyBrakes(-5);
+        } catch (WrongBrakesValueException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException();
+        } try {
+            roadBike.changeGear(1);
+        } catch (WrongGearValueException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException();
+        };
+
 
         Speedometer.chooseWinner((MountainBike) mountainBike, (RoadBike) roadBike);
-    }
+
+
+            }
 }

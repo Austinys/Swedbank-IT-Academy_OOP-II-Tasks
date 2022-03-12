@@ -8,6 +8,8 @@ public class RoadBike implements Bicycle {
     private final int minSpeed = 0;
     private final int minGear = 0;
     private final int maxGear = 10;
+    private final int minChangeGear = -2;
+    private final int maxChangeGear = 2;
 
 
     public RoadBike(int gear, int speed) {
@@ -17,37 +19,37 @@ public class RoadBike implements Bicycle {
 
     @Override
     public void changeGear(int newGear) {
-        if (newGear != 1 && newGear != 2 && newGear != -1 && newGear != -2) {
-            throw new Exceptions("Value is not allowed. Please use-2, -1, 1 or 2");
+        if (newGear < minChangeGear || newGear > maxChangeGear) {
+            throw new WrongGearValueException("Value is not allowed. Please use-2, -1, 1 or 2");
         } else if (newGear + gear < minGear) {
-            throw new Exceptions("Gear is too low. Lowest allowed gear is " + minGear);
+            throw new WrongGearValueException("Gear is too low. Lowest allowed gear is " + minGear);
         } else if (newGear + gear >= maxGear) {
-            throw new Exceptions("Gear is too high. Highest allowed gear is " + maxGear);
+            throw new WrongGearValueException("Gear is too high. Highest allowed gear is " + maxGear);
         }
         newGear = newGear + gear;
-        System.out.println("Current gear: " + newGear);
+        System.out.println("Current road bike gear: " + newGear);
     }
 
     @Override
     public void speedUp(int increment) {
         if (increment <= 0) {
-            throw new Exceptions("Increment can't be negative. Please use positive increment.");
+            throw new WrongSpeedIncrementException("Increment can't be negative. Please use positive increment.");
         } else if (speed + increment > maxSpeed) {
-            throw new Exceptions("Value is too high to increase bike speed. Highest possible speed to increase is " + (maxSpeed - speed));
+            throw new WrongSpeedIncrementException("Value is too high to increase bike speed. Highest possible speed to increase is " + (maxSpeed - speed));
         }
         speed = speed + increment;
-        System.out.println("Current Road bike speed after increment: " + speed);
+        System.out.println("Road bike speed increment: " + increment + ", current speed after increment: " + speed);
     }
 
     @Override
     public void applyBrakes(int decrease) {
         if (decrease >= minSpeed) {
-            throw new Exceptions("Decrease must be negative.");
+            throw new WrongBrakesValueException("Decrease must be negative.");
         } else if (speed + decrease < minSpeed) {
-            throw new Exceptions("Road bike speed can't be negative.");
+            throw new WrongBrakesValueException("Road bike speed can't be negative.");
         }
         speed = speed + decrease;
-        System.out.println("Current Road bike speed after decrease: " + speed);
+        System.out.println("Road bike speed decrease: " + decrease + ", current speed after decrease: " + speed);
     }
 
     public int getSpeed() {

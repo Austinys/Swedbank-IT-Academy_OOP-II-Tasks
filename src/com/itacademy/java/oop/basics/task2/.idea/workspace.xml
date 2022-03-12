@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35b99c69-d665-4b2b-b637-031748f669c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WrongBrakesValueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WrongSpeedIncrementException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../.idea/libraries/OOP_Basics_II_Tasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../OOP Basics II Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../OOP Basics II Tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task1/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task1/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task1/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task1/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/Bicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/BicycleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/BicycleApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/MountainBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/MountainBike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/RoadBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/RoadBike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/Speedometer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../out/production/OOP Basics II Tasks/com/itacademy/java/oop/basics/task2/Speedometer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BicycleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BicycleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/WrongGearValueException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/MountainBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/RoadBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Speedometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Speedometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/Atm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/AtmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/AtmApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/DebitCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/DebitCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/InsuficientAtmFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/InsuficientAtmFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/MyBankAtm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/MyBankAtm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/NotEnoughBalanceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/NotEnoughBalanceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/NotEnoughCreditException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/NotEnoughCreditException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="269p7NdWv1cPOO2dQ25dmiWKrNQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35b99c69-d665-4b2b-b637-031748f669c0" name="Changes" comment="" />
+      <created>1646845489542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646845489542</updated>
+    </task>
+    <servers />
+  </component>
+</project>
