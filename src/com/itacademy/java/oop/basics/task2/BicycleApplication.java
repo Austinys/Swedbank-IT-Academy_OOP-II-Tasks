@@ -1,6 +1,5 @@
 package com.itacademy.java.oop.basics.task2;
 
-
 public class BicycleApplication {
     public static void main(String[] args) {
         Bicycle mountainBike = new MountainBike(1, 10);
@@ -13,12 +12,14 @@ public class BicycleApplication {
         } catch (WrongSpeedIncrementException e) {
             System.out.println(e.getMessage());
             throw new RuntimeException();
-        } try {
+        }
+        try {
             mountainBike.applyBrakes(5);
         } catch (WrongBrakesValueException e) {
             System.out.println(e.getMessage());
             throw new RuntimeException();
-        } try {
+        }
+        try {
             mountainBike.changeGear(1);
         } catch (WrongGearValueException e) {
             System.out.println(e.getMessage());
@@ -30,21 +31,20 @@ public class BicycleApplication {
         } catch (WrongSpeedIncrementException e) {
             System.out.println(e.getMessage());
             throw new RuntimeException();
-        } try {
+        }
+        try {
             roadBike.applyBrakes(-5);
         } catch (WrongBrakesValueException e) {
             System.out.println(e.getMessage());
             throw new RuntimeException();
-        } try {
+        }
+        try {
             roadBike.changeGear(1);
         } catch (WrongGearValueException e) {
             System.out.println(e.getMessage());
             throw new RuntimeException();
-        };
-
+        }
 
         Speedometer.chooseWinner((MountainBike) mountainBike, (RoadBike) roadBike);
-
-
-            }
+    }
 }

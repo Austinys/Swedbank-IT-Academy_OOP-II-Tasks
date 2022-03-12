@@ -11,7 +11,6 @@ public class RoadBike implements Bicycle {
     private final int minChangeGear = -2;
     private final int maxChangeGear = 2;
 
-
     public RoadBike(int gear, int speed) {
         this.gear = gear;
         this.speed = speed;

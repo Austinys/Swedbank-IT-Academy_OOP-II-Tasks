@@ -55,7 +55,6 @@ public class MountainBike implements Bicycle {
         return speed;
     }
 
-
     public String toString() {
         return "Mountain bike gear: " + gear + ", speed: " + speed;
     }
